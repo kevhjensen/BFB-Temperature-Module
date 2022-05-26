@@ -1,0 +1,2 @@
+# BFB-Temperature-Module
+This revision of the BFB utilizes a Teensy 3.6. It has 7 analog voltage inputs from the Energus modules temperature sensors. It communicates with the Orion BMS v2 using the Teensy’s built CAN Bus controller. The controller sends a signal to a TI transceiver, which is the device that actually connects to the CAN Bus lines. There is also a fault out pin, which is optional to implement.
